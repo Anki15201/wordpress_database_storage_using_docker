@@ -1,0 +1,13 @@
+    1  systemctl start docker
+    2  yum install docker
+    3  systemctl start docker
+    4  syatemctl status docker
+    5  systemctl status docker
+    6  docker pull wordpress:latest
+    7  docker pull mysql
+    8  docker run -dit --name db -e MYSQL_ROOT_PASSWORD=redhat -e  MYSQL_DATABASE=mydb -e MYSQL_USER=arpit -e MYSQL_PASSWORD=redhat   mysql:latest
+    9  docker ps
+   10  docker run -dit --name mywp -p 8080:80  wordpress:latest
+   11  docker ps
+   
+
