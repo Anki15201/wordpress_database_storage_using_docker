@@ -1,5 +1,5 @@
     1  systemctl start docker
-    2  yum install docker
+    2  apt install docker.io
     3  systemctl start docker
     4  syatemctl status docker
     5  systemctl status docker
